@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="Adapter Pattern">
-      <change afterPath="$PROJECT_DIR$/src/singleton_pattern/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton_pattern/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton_pattern/DoorMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton_pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton_pattern/Mouse.java" afterDir="false" />
+    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="Adapter Pattern, Singleton Pattern">
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/teacher/JavaTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/teacher/PythonTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/teacher/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter_pattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter_pattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter_pattern/OuterTiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter_pattern/OuterTiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter_pattern/TigerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter_pattern/TigerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy_pattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy_pattern/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696486858675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adapter Pattern, Singleton Pattern">
+      <created>1696492089275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696492089275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="전략 패턴, 프록시 패턴" />
     <MESSAGE value="Adapter Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter Pattern" />
+    <MESSAGE value="Adapter Pattern, Singleton Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter Pattern, Singleton Pattern" />
   </component>
 </project>
