@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="리스코프 치환 원칙 복습">
-      <change afterPath="$PROJECT_DIR$/src/strategy_pattern2/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy_pattern2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy_pattern2/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy_pattern2/PaypalPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy_pattern2/ShoppingCart.java" afterDir="false" />
+    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="전략 패턴(과 템플릿 메서드 패턴 비교) 복습">
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/example2/AbstractRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/example2/CoffeeRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/example2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templateMethod_pattern/example2/TeaRecipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composition/CPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composition/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composition/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composition/RAM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/interitance/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/interitance/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/interitance/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/interitance/inheritance.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696775492100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="전략 패턴(과 템플릿 메서드 패턴 비교) 복습">
+      <created>1696776410336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696776410336</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +196,7 @@
     <MESSAGE value="자바 Solid 원칙" />
     <MESSAGE value="집약 Aggregation" />
     <MESSAGE value="리스코프 치환 원칙 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="리스코프 치환 원칙 복습" />
+    <MESSAGE value="전략 패턴(과 템플릿 메서드 패턴 비교) 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="전략 패턴(과 템플릿 메서드 패턴 비교) 복습" />
   </component>
 </project>
