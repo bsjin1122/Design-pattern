@@ -80,23 +80,24 @@ class Circle {
 /* 위반한 코드 */
 class Bird {
     void fly() {
-        // 모든 새가 비행할 수 있는 것으로 가정
+        // 새가 날 수 있는 기본적인 구현
     }
 }
 
-class Penguin extends Bird {
-    // 펭귄은 비행할 수 없으므로 fly 메서드를 오버라이드하지 않음
+class Ostrich extends Bird {
+    // 타조(Ostrich)는 날지 못하므로 fly() 메서드를 오버라이드하지 않음
 }
 
-class Sparrow extends Bird {
-    @Override
-    void fly() {
-        // 참새의 비행 로직
+public class Main {
+    public static void main(String[] args) {
+        Bird bird = new Ostrich();
+        bird.fly(); // 오류 없이 실행되지만 Ostrich 인스턴스는 실제로 날지 못하는데, 이는 문제를 발생시킬 수 있다.
     }
 }
+
 
 ```
-펭귄 클래스는 Bird 클래스를 상속하지만, fly 메서드를 오버라이드 하지않으므로 
+타조 클래스는 Bird 클래스를 상속하지만, fly 메서드를 오버라이드 하지않으므로 
 부모 클래스와 하위 클래스 사이에 동작이 일관되지 않는다. 
 
 ---
@@ -160,4 +161,9 @@ class LightBulb {
 ```
 LightBulb 클래스가 Switch 클래스에 직접 의존하므로, DIP를 위반하고 있다.
 - 즉, 고수준 모듈(LightBulb)이 저수준 모듈(Switch)에 의존하고 있다.
-- 
+
+### 고수준 모듈
+- 소프트웨어 시스템의 핵심 기능을 제공하거나, 추상화된 레벨에서 작동하는 모듈 
+
+### 저수준 모듈 
+- 상세한 구현을 담당하고, 고수준 모듈에서 사용된다. 

@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="자바 Solid 원칙">
-      <change afterPath="$PROJECT_DIR$/src/java/oop/aggregation/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/oop/aggregation/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/oop/aggregation/aggregation.md" afterDir="false" />
+    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="집약 Aggregation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/oop/composition/composition.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/composition/composition.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/solid/SingleResponsibilityPrinciple_01_SRP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/solid/SingleResponsibilityPrinciple_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/solid/LiskovSubstitutionPrinciple_03_LSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/solid/LiskovSubstitutionPrinciple_03_LSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/solid/solid.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/solid/solid.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696773172500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="집약 Aggregation">
+      <created>1696774343806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696774343806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +177,7 @@
     <MESSAGE value="Adapter Pattern, Singleton Pattern" />
     <MESSAGE value="Factory Pattern, Observer pattern" />
     <MESSAGE value="자바 Solid 원칙" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 Solid 원칙" />
+    <MESSAGE value="집약 Aggregation" />
+    <option name="LAST_COMMIT_MESSAGE" value="집약 Aggregation" />
   </component>
 </project>
