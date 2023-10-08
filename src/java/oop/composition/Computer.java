@@ -1,4 +1,4 @@
-package composition;
+package java.oop.composition;
 
 public class Computer {
     CPU cpu;

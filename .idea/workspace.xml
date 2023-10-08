@@ -4,26 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="Adapter Pattern, Singleton Pattern">
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/polling/Customer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/polling/Customer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/polling/LotteMart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/polling/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/pub/LgMart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/pub/LotteMart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/pub/Mart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/sub/Cus1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/sub/Cus2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/sub/Cus3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/sub/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer_pattern/push_observer/sub/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_pattern/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_pattern/DBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_pattern/MariaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_pattern/MySqlDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_pattern/OracleDB.java" afterDir="false" />
+    <list default="true" id="0fa815cf-02ad-4288-a8e5-cc463bce7e3d" name="변경" comment="Factory Pattern, Observer pattern">
+      <change afterPath="$PROJECT_DIR$/src/java/solid/DependencyInversionPrinciple_05_DIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/solid/InterfaceSegregationPrinciple_04_ISP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/solid/LiskovSubstitutionPrinciple_03_LSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/solid/OpenClosedPrinciple_02_OCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/solid/SingleResponsibilityPrinciple_01_SRP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/solid/solid.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/composition/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/composition/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/composition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/composition/RAM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/composition.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/composition/composition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interitance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/interitance/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interitance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/interitance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interitance/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/interitance/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interitance/inheritance.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/oop/interitance/inheritance.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696492089275</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Factory Pattern, Observer pattern">
+      <created>1696768021450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696768021451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +174,7 @@
     <MESSAGE value="전략 패턴, 프록시 패턴" />
     <MESSAGE value="Adapter Pattern" />
     <MESSAGE value="Adapter Pattern, Singleton Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter Pattern, Singleton Pattern" />
+    <MESSAGE value="Factory Pattern, Observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern, Observer pattern" />
   </component>
 </project>

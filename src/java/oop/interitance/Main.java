@@ -1,4 +1,4 @@
-package interitance;
+package java.oop.interitance;
 
 public class Main {
     public static void main(String[] args) {

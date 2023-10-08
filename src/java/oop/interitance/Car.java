@@ -1,4 +1,4 @@
-package interitance;
+package java.oop.interitance;
 
 public class Car extends Vehicle{
     int numberOfDoors;
